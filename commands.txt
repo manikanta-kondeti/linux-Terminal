@@ -1,0 +1,9 @@
+uname
+hostname
+getpid
+kill
+execve 
+malloc
+strtok
+fork
+

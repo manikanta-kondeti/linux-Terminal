@@ -1,0 +1,12 @@
+we use sig handler to capture the signal and redirect from that point .
+
+for eg: if we type ctrl+c  when a c program is running then it have some default function it will  capture signal and comes out from the process .
+  in a similar way if we want know the dead signal of a child process then we need to capture the signal from the child process .
+  so for that purpose we keep sig_handler  function 1  in which the first parameter is the  signal number !
+  void signal_handler-for-ctrl+c(int signumber)
+  {
+	  if (signum==2 || signum==20)
+	  {
+		  then capture that signal which corresponds to ctrl+c;
+	  }
+  }
